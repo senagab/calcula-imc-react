@@ -10,14 +10,14 @@ function App() {
 
     return (
         <>
-            <h1>Calcule seu IMC!</h1>
+            <h1>Calcule seu Indice de Massa Corporal</h1>
 
             <input type="number" placeholder='Insira a sua altura em cm' required onBlur={(e) => setAltura(e.target.value)}/>
             <input type="number" placeholder='Insira o seu peso em kg' required onBlur={(e) => setPeso(e.target.value)}/>
 
             <IMCCalculado altura={altura} peso={peso} ></IMCCalculado>
 
-            <footer>&#169; Gabriel - Calculadora de IMC </footer>
+            {/* <footer>&#169; Gabriel - Calculadora de IMC </footer> */}
         </>
     )
 }
