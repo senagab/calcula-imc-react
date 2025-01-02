@@ -1,6 +1,6 @@
 import styles from './form.module.css'
 
-const Calculo = ({ altura, peso }) => {
+const IMC = ({ altura, peso }) => {
     const verificaCampos = () => {
         if (!altura || !peso || altura === '' || peso === '') {
             return `Adicione valores aos dois campos!`
@@ -8,7 +8,7 @@ const Calculo = ({ altura, peso }) => {
         return null
     }
 
-    const resultadoIMC = () => {
+    const calculo = () => {
         const alturaEmCm = parseInt(altura.replace(',', '.').trim())
         const pesoEmKg = parseInt(peso.replace(',', '.').trim())
 
@@ -37,7 +37,7 @@ const Calculo = ({ altura, peso }) => {
     ]
 
     const erro = verificaCampos()
-    const imc = resultadoIMC()
+    const imc = calculo()
 
     return (
         <>
@@ -68,4 +68,4 @@ const Calculo = ({ altura, peso }) => {
 }
 
 
-export default Calculo
+export default IMC

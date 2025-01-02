@@ -1,0 +1,48 @@
+.baixoPeso {
+    background-color: #4897cf;
+    color: #fff;
+}
+
+.pesoNormal {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.sobrepeso {
+    background-color: #FFB74D; 
+    color: #fff;
+}
+
+.obesidadeI {
+    background-color: #FF8A65; 
+    color: #fff;
+}
+
+.obesidadeII {
+    background-color: #F4511E; 
+    color: #fff;
+}
+
+.obesidadeIII {
+    background-color: #D32F2F; 
+    color: #fff;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+
+ul li p {
+    padding: 0.5em;
+    text-align: center;
+    font-weight: 600;
+    /* text-shadow: 1px 1.5px 1.5px black; */
+}
