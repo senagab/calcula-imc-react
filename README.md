@@ -1,6 +1,6 @@
-# React + Vite
+# Calculadora de IMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este código tem como objeto, via input do usuário, calcular seu Indice de Massa Corporal.
 
 Currently, two official plugins are available:
 
