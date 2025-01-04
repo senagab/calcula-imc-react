@@ -50,6 +50,7 @@ input {
   margin: 1em 1em;
   padding: 10px;
   font-size: 18px;
+  border: none;
 }
 
 footer {
