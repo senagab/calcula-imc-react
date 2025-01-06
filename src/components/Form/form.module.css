@@ -1,6 +1,7 @@
 
 
 .baixoPeso {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #E4ECFF;
@@ -10,6 +11,7 @@
 }
 
 .pesoNormal {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #CCA3F5;
@@ -19,6 +21,7 @@
 }
 
 .sobrepeso {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #A573ED; 
@@ -28,6 +31,7 @@
 }
 
 .obesidadeI {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #8049EE; 
@@ -37,6 +41,7 @@
 }
 
 .obesidadeII {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #6629E9; 
@@ -46,29 +51,13 @@
 }
 
 .obesidadeIII {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #460DC1; 
     color: var(--corSecundaria);
     padding: 15px;
     border-radius: 15px 15px 0 0;
-}
-
-.titulo {
-    font-size: 40px;
-}
-
-span.subtitulo {
-    font-size: 30px;
-}
-
-.icone-info {
-    background-image: url(../Images/info.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20px;
-    height: 20px;
 }
 
 ul {
