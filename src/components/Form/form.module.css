@@ -1,6 +1,8 @@
 
 
 .baixoPeso {
+    display: flex;
+    flex-direction: column;
     background-color: #E4ECFF;
     color: var(--corPrincipal);
     padding: 15px;
@@ -8,6 +10,8 @@
 }
 
 .pesoNormal {
+    display: flex;
+    flex-direction: column;
     background-color: #CCA3F5;
     color: var(--corSecundaria);
     padding: 15px;
@@ -15,6 +19,8 @@
 }
 
 .sobrepeso {
+    display: flex;
+    flex-direction: column;
     background-color: #A573ED; 
     color: var(--corSecundaria);
     padding: 15px;
@@ -22,6 +28,8 @@
 }
 
 .obesidadeI {
+    display: flex;
+    flex-direction: column;
     background-color: #8049EE; 
     color: var(--corSecundaria);
     padding: 15px;
@@ -29,6 +37,8 @@
 }
 
 .obesidadeII {
+    display: flex;
+    flex-direction: column;
     background-color: #6629E9; 
     color: var(--corSecundaria);
     padding: 15px;
@@ -36,6 +46,8 @@
 }
 
 .obesidadeIII {
+    display: flex;
+    flex-direction: column;
     background-color: #460DC1; 
     color: var(--corSecundaria);
     padding: 15px;

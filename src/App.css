@@ -46,6 +46,18 @@
   color: #888;
 }
 
+.titulo {
+  font-size: 40px;
+  margin: 5px 0;
+  text-align: left;
+  font-weight: 700;
+}
+
+.subtitulo {
+  text-align: left;
+  font-size: 30px;
+}
+
 input {
   margin: 1em 1em;
   padding: 10px;
