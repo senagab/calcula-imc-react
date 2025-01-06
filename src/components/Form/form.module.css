@@ -1,33 +1,63 @@
+
+
 .baixoPeso {
     background-color: #E4ECFF;
     color: var(--corPrincipal);
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
 .pesoNormal {
     background-color: #CCA3F5;
     color: var(--corSecundaria);
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
 .sobrepeso {
     background-color: #A573ED; 
     color: var(--corSecundaria);
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
 .obesidadeI {
     background-color: #8049EE; 
     color: var(--corSecundaria);
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
 .obesidadeII {
     background-color: #6629E9; 
     color: var(--corSecundaria);
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
 .obesidadeIII {
     background-color: #460DC1; 
     color: var(--corSecundaria);
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
+.titulo {
+    font-size: 40px;
+}
+
+span.subtitulo {
+    font-size: 30px;
+}
+
+.icone-info {
+    background-image: url(../Images/info.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
 
 ul {
     list-style: none;

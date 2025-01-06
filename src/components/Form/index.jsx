@@ -27,12 +27,12 @@ const IMC = ({ altura, peso }) => {
     };
 
     const tabelaImc = [
-        { limite: 18.5, classificacao: `Você está abaixo do peso. Aqui, pegue um hot dog meu amigo!`, cor: styles.baixoPeso },
-        { limite: 24.9, classificacao: `Você está com peso normal, continue assim!`, cor: styles.pesoNormal },
-        { limite: 29.9, classificacao: `Você está com sobrepeso, vamos fazer alguns exercícios?`, cor: styles.sobrepeso },
-        { limite: 34.9, classificacao: `Você está com obesidade grau I.`, cor: styles.obesidadeI },
-        { limite: 39.9, classificacao: `Você está com obesidade grau II.`, cor: styles.obesidadeII },
-        { limite: 40, classificacao: `Você está com obesidade grau III.`, cor: styles.obesidadeIII },
+        { limite: 18.5, classificacao: `Abaixo do peso`, conteudo: `abaixo do peso, isso se dá por`, cor: styles.baixoPeso, detalhe: `até 18.5,` },
+        { limite: 24.9, classificacao: `Peso normal`, conteudo: `com peso normal, isso se dá por`,cor: styles.pesoNormal, detalhe: `até 24.9,` },
+        { limite: 29.9, classificacao: `Sobrepeso`, conteudo: `com sobrepeso, isso se dá por`,cor: styles.sobrepeso, detalhe: `até 29.9,` },
+        { limite: 34.9, classificacao: `Obesidade grau I.`, conteudo: `acima do peso, isso se dá por`,cor: styles.obesidadeI, detalhe: `até 34.9,` },
+        { limite: 39.9, classificacao: `Obesidade grau II.`, conteudo: `acima do peso, isso se dá por`,cor: styles.obesidadeII, detalhe: `até 39.9,` },
+        { limite: 40, classificacao: `Obesidade grau III.`, conteudo: `acima do peso, isso se dá por`,cor: styles.obesidadeIII, detalhe: `acima de 40,` },
     ];
 
     const erro = verificaCampos();
@@ -52,7 +52,12 @@ const IMC = ({ altura, peso }) => {
                         <h2>Seu IMC é: {imc}</h2>
                         {classificacaoIMC && (
                             <div className={classificacaoIMC.cor}>
-                                <p>{classificacaoIMC.classificacao}</p>
+                                <p className='titulo'>{classificacaoIMC.classificacao}</p>
+                                <span className='subtitulo'>{classificacaoIMC.detalhe}</span>
+                                <div className='icone-info'>ico</div>
+                                <p>
+                                    Segundo a OMS você está {classificacaoIMC.conteudo}
+                                </p>
                             </div>
                         )}
                     </>
