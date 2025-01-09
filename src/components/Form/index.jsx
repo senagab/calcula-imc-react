@@ -37,38 +37,38 @@ const IMC = ({ altura, peso }) => {
         { 
             limite: 24.9, 
             classificacao: `Peso normal`,
-            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à umlevando em conta sua altura.`,
+            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à um índice próximo ao peso ideal, levando em conta sua altura.`,
             cor: styles.pesoNormal, 
             detalhe: `até 24.9` 
         },
         { 
             limite: 29.9, 
             classificacao: `Sobrepeso`,
-            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à umlevando em conta sua altura.`,
+            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à um indice de sobrepeso, levando em conta sua altura.`,
             cor: styles.sobrepeso, 
             detalhe: `até 29.9` 
         },
         { 
             limite: 34.9, 
             classificacao: `Obesidade grau I.`,
-            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à umlevando em conta sua altura.`,
+            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à um índice de obesidade grau I, levando em conta sua altura.`,
             cor: styles.obesidadeI, 
             detalhe: `até 34.9` 
         },
         { 
             limite: 39.9, 
             classificacao: `Obesidade grau II.`,
-            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à umlevando em conta sua altura.`,
+            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à um índice de obesidade grau II, levando em conta sua altura.`,
             cor: styles.obesidadeII, 
             detalhe: `até 39.9` 
         },
         {   
-            limite: 40, 
-            classificacao: `Obesidade grau III.`,
-            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à umlevando em conta sua altura.`,
+            limite: 60, 
+            classificacao: `Obesidade grau III`,
+            conteudo: `Segundo a Organização Mundial da Saúde (OMS), esta pontuação equivale à um índice de obesidade grau III, levando em conta sua altura.`,
             cor: styles.obesidadeIII, 
-            detalhe: `ate 40` 
-        }
+            detalhe: `superior ou igual a 40` 
+        },
     ];
 
     const erro = verificaCampos();
