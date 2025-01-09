@@ -16,8 +16,6 @@ function App() {
             <input type="number" placeholder='Insira o seu peso em kg' required onBlur={(e) => setPeso(e.target.value)}/>
 
             <IMCCalculado altura={altura} peso={peso} ></IMCCalculado>
-
-            {/* <footer>&#169; Gabriel - Calculadora de IMC </footer> */}
         </>
     )
 }
